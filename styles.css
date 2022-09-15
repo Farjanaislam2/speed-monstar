@@ -148,10 +148,11 @@ button {
 } 
 
 .card {
-  width: 100%;
-  height: 100%;
+  width:32%;
+  height: 200px;
   padding: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
@@ -187,16 +188,27 @@ button {
     width: 100%;
   }
   #display{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    align-items: center;
-
+    align-items: center; */
+font-size: 12px;
   }
   #histories{
-    flex-direction: column;
-  }
-  .card {
-    flex-direction: column;
-  }
- 
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+}
+.card {
+  width: 100%;
+  height: 200px;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 30px;
+  color: white;
+  font-weight: 500;
+  border-radius: 15px;
+  margin-bottom: 30px;
+} 
 }
